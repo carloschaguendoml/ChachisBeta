@@ -1,27 +1,149 @@
 PODS:
   - ChachisBeta (0.1.0)
+  - FXBlurView (1.6.4)
+  - JRSwizzle (1.0)
+  - MLUI (5.26.1):
+    - MLUI/ActionButton (= 5.26.1)
+    - MLUI/Core (= 5.26.1)
+    - MLUI/Helpers (= 5.26.1)
+    - MLUI/MLButton (= 5.26.1)
+    - MLUI/MLCheckBox (= 5.26.1)
+    - MLUI/MLColorPalette (= 5.26.1)
+    - MLUI/MLContextualMenu (= 5.26.1)
+    - MLUI/MLFonts (= 5.26.1)
+    - MLUI/MLFullscreenModal (= 5.26.1)
+    - MLUI/MLGenericErrorView (= 5.26.1)
+    - MLUI/MLHeader (= 5.26.1)
+    - MLUI/MLHtml (= 5.26.1)
+    - MLUI/MLModal (= 5.26.1)
+    - MLUI/MLRadioButton (= 5.26.1)
+    - MLUI/MLSnackBar (= 5.26.1)
+    - MLUI/MLSpacing (= 5.26.1)
+    - MLUI/MLSpinner (= 5.26.1)
+    - MLUI/MLSwitch (= 5.26.1)
+    - MLUI/MLTextView (= 5.26.1)
+    - MLUI/MLTitledMultiLineTextField (= 5.26.1)
+    - MLUI/MLTitledSingleLineTextField (= 5.26.1)
+    - MLUI/PriceView (= 5.26.1)
+    - MLUI/SnackBarView (= 5.26.1)
+    - MLUI/StyleSheet (= 5.26.1)
+  - MLUI/ActionButton (5.26.1):
+    - MLUI/Core
+  - MLUI/Core (5.26.1):
+    - MLUI/MLFonts
+  - MLUI/Helpers (5.26.1)
+  - MLUI/MLButton (5.26.1):
+    - MLUI/Core
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLSpinner
+    - MLUI/StyleSheet
+  - MLUI/MLCheckBox (5.26.1):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLColorPalette (5.26.1)
+  - MLUI/MLContextualMenu (5.26.1):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLFonts (5.26.1):
+    - JRSwizzle (= 1.0)
+    - MLUI/Helpers
+    - MLUI/StyleSheet
+  - MLUI/MLFullscreenModal (5.26.1):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLHeader
+    - MLUI/StyleSheet
+  - MLUI/MLGenericErrorView (5.26.1):
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLSpacing
+  - MLUI/MLHeader (5.26.1):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLHtml (5.26.1):
+    - MLUI/MLFonts
+  - MLUI/MLModal (5.26.1):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLRadioButton (5.26.1):
+    - MLUI/StyleSheet
+  - MLUI/MLSnackBar (5.26.1):
+    - MLUI/Helpers
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLSpacing (5.26.1):
+    - JRSwizzle (= 1.0)
+    - MLUI/MLFonts
+  - MLUI/MLSpinner (5.26.1):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLSwitch (5.26.1):
+    - MLUI/Helpers
+    - MLUI/MLColorPalette
+  - MLUI/MLTextView (5.26.1):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLTitledMultiLineTextField (5.26.1):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLTitledSingleLineTextField
+    - MLUI/StyleSheet
+  - MLUI/MLTitledSingleLineTextField (5.26.1):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/PriceView (5.26.1):
+    - MLUI/Core
+    - MLUI/MLFonts
+  - MLUI/SnackBarView (5.26.1):
+    - MLUI/Helpers
+    - MLUI/MLFonts
+  - MLUI/StyleSheet (5.26.1)
   - Nimble (10.0.0)
   - Quick (2.2.1)
 
 DEPENDENCIES:
-  - ChachisBeta (from `../`)
+  - ChachisBeta
+  - "MLUI (from `git@github.com:carloschaguendoml/MLUI.git`, branch `develop`)"
   - Nimble (~> 10.0.0)
   - Quick (~> 2.2.0)
 
 SPEC REPOS:
   trunk:
+    - ChachisBeta
+    - FXBlurView
+    - JRSwizzle
     - Nimble
     - Quick
 
 EXTERNAL SOURCES:
-  ChachisBeta:
-    :path: "../"
+  MLUI:
+    :branch: develop
+    :git: "git@github.com:carloschaguendoml/MLUI.git"
+
+CHECKOUT OPTIONS:
+  MLUI:
+    :commit: 8770766e48145d0287cdf965f9febc54d01f4eeb
+    :git: "git@github.com:carloschaguendoml/MLUI.git"
 
 SPEC CHECKSUMS:
-  ChachisBeta: 430e342c189c1b68a0be7ca39c1684b08ff9ba3d
+  ChachisBeta: 08bb6fa3b2093d8d7b030e573403df52fc0e6040
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  MLUI: eb1e67a4c3314745fb472a736ee017e6c9b77d65
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 3785cb511e021402ba376da1eadad20cd3103b9e
+PODFILE CHECKSUM: 0e03727ff490756ae646d4aca806dc2ed95015eb
 
 COCOAPODS: 1.10.2

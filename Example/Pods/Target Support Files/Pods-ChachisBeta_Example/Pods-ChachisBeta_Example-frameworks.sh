@@ -176,9 +176,15 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ChachisBeta/ChachisBeta.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FXBlurView/FXBlurView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JRSwizzle/JRSwizzle.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MLUI/MLUI.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ChachisBeta/ChachisBeta.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FXBlurView/FXBlurView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JRSwizzle/JRSwizzle.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MLUI/MLUI.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
