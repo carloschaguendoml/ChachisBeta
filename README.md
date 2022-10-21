@@ -1,6 +1,6 @@
 # ChachisBeta
 
-[![CI Status](https://img.shields.io/travis/Carlos Andres Chaguendo/ChachisBeta.svg?style=flat)](https://travis-ci.org/Carlos Andres Chaguendo/ChachisBeta)
+[![CI Status](https://img.shields.io/travis/carloschaguendoml/ChachisBeta.svg?style=flat)](https://travis-ci.org/Carlos Andres Chaguendo/ChachisBeta)
 [![Version](https://img.shields.io/cocoapods/v/ChachisBeta.svg?style=flat)](https://cocoapods.org/pods/ChachisBeta)
 [![License](https://img.shields.io/cocoapods/l/ChachisBeta.svg?style=flat)](https://cocoapods.org/pods/ChachisBeta)
 [![Platform](https://img.shields.io/cocoapods/p/ChachisBeta.svg?style=flat)](https://cocoapods.org/pods/ChachisBeta)
