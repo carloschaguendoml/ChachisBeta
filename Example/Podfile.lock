@@ -1,5 +1,5 @@
 PODS:
-  - ChachisBeta (0.1.0)
+  - ChachisBeta (0.2.0)
   - FXBlurView (1.6.4)
   - JRSwizzle (1.0)
   - MLUI (5.26.1):
@@ -137,13 +137,13 @@ CHECKOUT OPTIONS:
     :git: "git@github.com:carloschaguendoml/MLUI.git"
 
 SPEC CHECKSUMS:
-  ChachisBeta: 08bb6fa3b2093d8d7b030e573403df52fc0e6040
+  ChachisBeta: a776343cc2fea14c76d202da174852fe260f9d51
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
   MLUI: eb1e67a4c3314745fb472a736ee017e6c9b77d65
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
-PODFILE CHECKSUM: 0e03727ff490756ae646d4aca806dc2ed95015eb
+PODFILE CHECKSUM: 115a150ef224c4ed2ed15025fc87d9e356724494
 
 COCOAPODS: 1.10.2

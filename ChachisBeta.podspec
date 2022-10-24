@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChachisBeta'
-  s.version          = '0.2.0'
+  s.version          = '5.25.0'
   s.summary          = 'A CocoaPods library written in Swift A short  of ChachisBeta.'
 
 # This description is used to generate tags and improve search results.
@@ -29,13 +29,13 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Carlos Andres Chaguendo' => 'carlos.chaguendo@mercadolibre.com.co' }
-  s.source           = { :git => 'https://github.com/carloschaguendoml/ChachisBeta.git', :tag => s.version.to_s }
+  s.source           = { :http => "https://artifacts.mercadolibre.com/repository/ios-releases/MLUI/#{s.version}/MLUI.zip" }
   s.swift_version = "5.5"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ChachisBeta/Classes/**/*'
+  s.source_files = 'LibraryComponents/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ChachisBeta' => ['ChachisBeta/Assets/*.png']
